@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+}
+
+.text-align-center{
+  text-align: center;
+
+}
+
+.utb-table{
+  width: 100%;
+  padding: 0;
+  margin-top: 50px;
+  
+}
+
+.utb-table tr td{
+  margin-top: 20px;
+  border: black 1px solid;
+}

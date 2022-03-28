@@ -1,0 +1,179 @@
+{
+  "items": [
+    {
+      "id": 2,
+      "name": "Teacher",
+      "sirname": "2",
+      "email": "teacher2@gmail.com",
+      "number": 417324
+    },
+    {
+      "id": 3,
+      "name": "Teacher",
+      "sirname": "3",
+      "email": "teacher3@gmail.com",
+      "number": 417324
+    },
+    {
+      "id": 4,
+      "name": "Teacher",
+      "sirname": "4",
+      "email": "teacher4@gmail.com",
+      "number": 417324
+    },
+    {
+      "id": 5,
+      "name": "Teacher",
+      "sirname": "5",
+      "email": "teacher5@gmail.com",
+      "number": 417324
+    },
+    {
+      "id": 6,
+      "name": "Teacher",
+      "sirname": "6",
+      "email": "teacher6@gmail.com",
+      "number": 417324
+    },
+    {
+      "id": 7,
+      "name": "Teacher",
+      "sirname": "7",
+      "email": "teacher7@gmail.com",
+      "number": 417324
+    },
+    {
+      "id": 8,
+      "name": "Teacher",
+      "sirname": "8",
+      "email": "teacher8@gmail.com",
+      "number": 417324
+    },
+    {
+      "id": 9,
+      "name": "Teacher",
+      "sirname": "9",
+      "email": "teacher9@gmail.com",
+      "number": 417324
+    },
+    {
+      "id": 10,
+      "name": "Teacher",
+      "sirname": "10",
+      "email": "teacher10@gmail.com",
+      "number": 417324
+    },
+    {
+      "id": 11,
+      "name": "Teacher",
+      "sirname": "11",
+      "email": "teacher11@gmail.com",
+      "number": 417324
+    },
+    {
+      "id": 12,
+      "name": "Teacher",
+      "sirname": "12",
+      "email": "teacher12@gmail.com",
+      "number": 417324
+    },
+    {
+      "id": 13,
+      "name": "Firas",
+      "sirname": "Danil",
+      "email": "someone@gmail.com",
+      "number": 5717239812
+    },
+    {
+      "id": 1,
+      "name": "Tozz",
+      "sirname": "1",
+      "email": "teacher1@gmail.com",
+      "number": 417324
+    }
+  ],
+  "kurser": [
+    {
+      "id": 1,
+      "name": "Matte",
+      "kursansvarig": "Teacher 1",
+      "length": "52"
+    },
+    {
+      "id": 2,
+      "name": "Engelska",
+      "kursansvarig": "Teacher 4",
+      "length": "52"
+    },
+    {
+      "id": 3,
+      "name": "Idrott",
+      "kursansvarig": "Teacher 12",
+      "length": "52"
+    },
+    {
+      "id": 4,
+      "name": "Programmering",
+      "kursansvarig": "Teacher 10",
+      "length": "52"
+    },
+    {
+      "id": 5,
+      "name": "Juridik",
+      "kursansvarig": "Firas Danil",
+      "length": "52"
+    }
+  ],
+  "utb": [
+    {
+      "id": 1,
+      "name": "Front-end",
+      "kurser": [
+        "Matte",
+        "Engelska",
+        "Programmering"
+      ],
+      "ansvarig": "Teacher 8",
+      "desc": "Front end development"
+    },
+    {
+      "id": 2,
+      "name": "Backend",
+      "kurser": [
+        "Idrott",
+        "Juridik",
+        "Engelska"
+      ],
+      "ansvarig": "Firas Danil",
+      "desc": "Back end development"
+    },
+    {
+      "id": 3,
+      "name": "Useless",
+      "kurser": [
+        "Idrott",
+        "Idrott",
+        "Idrott",
+        "Idrott",
+        "Engelska"
+      ],
+      "ansvarig": "Firas Danil",
+      "desc": "Most Useless course ever"
+    }
+  ],
+  "ansokar": [
+    {
+      "id": 1,
+      "name": "firas",
+      "sirname": "danil",
+      "utbildning": "Front end development"
+    },
+    {
+      "id": 2,
+      "name": "Firas",
+      "sirname": "Danil",
+      "email": "someone@gmail.com",
+      "utb": "Useless"
+    }
+  ]
+}
