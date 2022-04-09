@@ -42,8 +42,19 @@ function Personal() {
 
   const addTeacher = async(name,sirname,mail,number) =>
   {
-    if(number > 0){
-    const id = items.length ? items[items.length-1].id +1 : 1;
+
+    var temp = 0;
+    if(items){
+    for (var i = 0; i < items.length;i++){
+      if (temp < items[i].id)
+      {
+        temp = items[i].id
+      }
+    }
+  }
+    const id = temp+1;
+
+
     const teacher = {
       "id" : id,
       "name": name,
@@ -65,7 +76,8 @@ function Personal() {
     const result = await request(API_URL, postOptions);
     if (result) console.log(result);
     }
-  }
+
+
 
   const addTeacher1 = async(id,name,sirname,mail,number) =>
   {
