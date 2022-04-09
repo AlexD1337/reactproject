@@ -13,3 +13,10 @@ You may also see any lint errors in the console.
 Runs the JSON-Server on port [https://localhost:3500](https://localhost:3500) and watches db.json file located in data folder.
 
 #### OBS Båda måste köras på olika terminalen för att koden ska funka
+
+
+Gruppmedlemmar.
+Sahin
+Lihem
+Ganni
+Alex
