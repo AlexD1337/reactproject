@@ -1,4 +1,5 @@
-
+### `npm i` // `npm install` 
+Since the node_modules folder is deleted. npm i / npm install to install libraries.
 
 ### `npm start`
 
